@@ -5,7 +5,7 @@ import cv2
 
 img = imread('day.png')
 
-arr = img*np.array([0.1,0.2,0.5])
+arr = img*np.array([0.1,0.25,0.5])
 
 arr2 = (255*arr/arr.max()).asttype(np.uint8)
 
